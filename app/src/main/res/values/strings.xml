@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProyectoAndresGonzalez20004118</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="editorial">
+        <item>MARVEL</item>
+        <item>DC</item>
+        <item>IMAGE</item>
+    </string-array>
+</resources>

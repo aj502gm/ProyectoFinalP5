@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.InsertFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="112dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Nombre:">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="200dp"
+            android:layout_height="50dp">
+        </EditText>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Url/Editorial">
+
+        </TextView>
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:entries="@array/editorial"
+            android:id="@+id/sp_tipo"></Spinner>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Fecha publicacion:">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="200dp"
+            android:layout_height="50dp">
+        </EditText>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Descripción:">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="200dp"
+            android:layout_height="50dp">
+        </EditText>
+        <Button
+            android:id="@+id/btn_grabar"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Grabar comic"
+            android:layout_marginTop="10dp"></Button>
+    </LinearLayout>
+</LinearLayout>

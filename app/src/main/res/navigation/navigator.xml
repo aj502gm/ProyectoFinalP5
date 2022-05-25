@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/insertFragment">
+
+    <fragment
+        android:id="@+id/insertFragment"
+        android:name="com.example.proyectoandresgonzalez20004118.view.InsertFragment"
+        android:label="fragment_insert"
+        tools:layout="@layout/fragment_insert" >
+        <action
+            android:id="@+id/action_insertFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.proyectoandresgonzalez20004118.view.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.proyectoandresgonzalez20004118.view.ThirdFragment"
+        android:label="ThirdFragment" />
+</navigation>
